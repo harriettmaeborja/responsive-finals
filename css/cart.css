@@ -1,0 +1,126 @@
+body {
+    background-color: #eff0f5;
+    color: #424242;
+    font-family: Arial, Helvetica, sans-serif;;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+.right-side li a:hover{
+    color: #f95031;
+}
+.center li a:hover {
+    color: #f95031;
+}
+.right-side li a, 
+.center li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #252f7b;
+}
+.right-side li,
+.center li  {
+    display: inline-block;
+    padding: 15px 10px;
+}
+h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+.cart {
+    width: 85%;
+    border-collapse: collapse;
+    font-size: 15px;
+    background-color: #ffffff;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+.cart thead tr {
+    border-bottom: 1px solid #cacaca;
+}
+.cart tbody tr {
+    border-bottom: 1px solid #cacaca;
+}
+.cart tfoot tr {
+    border-bottom: 1px solid #cacaca;
+}
+.cart thead tr th {
+    padding: 30px 0 10px 80px;
+    text-align: left;
+}
+.cart tbody tr td {
+    padding: 10px 0 10px 30px;
+}
+.cart tfoot tr td{
+    padding: 10px 0 10px 30px;
+    font-weight: bold;
+}
+.cart thead tr:hover{
+    color: #ececec;
+}
+.cart tbody tr:hover{
+    color: #ececec;
+}
+.cart tfoot tr:hover{
+    color: #ececec;
+} 
+
+/* footer */
+footer {
+    width: 100%;
+    background:#ffffff ;
+    margin-top: 331px;
+    height: 139px;
+    display: flex;
+    border-top: 1px solid #cacaca;
+    }
+    
+footer ul{
+    list-style: none;
+}
+footer div {
+    padding: 10px  5px;
+    margin:auto;
+}
+footer ul li {
+    margin-bottom: 20px;
+    display: inline-block;
+    padding-left: 5px ;
+}
+@media only screen and (max-width: 1355px){
+    header {
+        background-color: #ffffff;
+        height: 120px; 
+    }
+    header img {
+        padding-top: 20px;
+    }
+    footer {
+        position: relative; top: 100px;
+}
+}
+
+@media only screen and (max-width: 997px)
+{
+    .right-side li,
+    .center li {
+        padding: 2px;
+    }
+}
+@media only screen and (max-width: 660px) {
+    footer {
+        position: relative; top: 10px;
+        }
+    section {
+    width: 70%;
+    height: 1370px;
+}
+}

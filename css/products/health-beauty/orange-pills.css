@@ -1,0 +1,131 @@
+body {
+    background-color: #eff0f5;
+    color: #424242;
+    font-family: Arial, Helvetica, sans-serif;;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+.right-side li a:hover{
+    color: #f95031;
+}
+.center li a:hover {
+    color: #f95031;
+}
+.right-side li a, 
+.center li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #252f7b;
+}
+.right-side li,
+.center li  {
+    display: inline-block;
+    padding: 15px 10px;
+}
+
+section {
+    margin: auto;
+    width: 90%;
+    height: 570px;
+    background-color: #ffffff;
+}
+h1 {
+    text-align: center;
+    margin: 35px 0;
+    padding-top: 30px;
+    font-size: 35px;
+}   
+.img1 img {
+    height: 280px;
+    width: 300px;
+
+    /* padding: 10px 590px; */
+}
+section .price {
+    text-align: center;
+}
+section .text, .img1 {
+    text-align: center;
+    margin: 0 30px;
+        
+}
+input {
+    width: 130px;
+    height: 25px;
+}
+button {
+    width: 130px;
+    height: 31px;
+    background-color: #007bff ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* footer */
+footer {
+    width: 100%;
+    background:#ffffff ;
+    margin-top: 80px;
+    height: 135px;
+    display: flex;
+    border-top: 1px solid #cacaca;
+    }
+    
+footer ul{
+    list-style: none;
+}
+footer div {
+    padding: 10px  5px;
+    margin:auto;
+}
+footer ul li {
+    margin-bottom: 20px;
+    display: inline-block;
+    padding-left: 5px ;
+}
+@media only screen and (max-width: 1355px){
+    header {
+        background-color: #ffffff;
+        height: 120px; 
+    }
+    header img {
+        padding-top: 20px;
+    }
+    footer {
+        position: relative; top: 100px;
+        }
+    section {
+    width: 70%;
+    height: 700px;
+}
+}
+
+@media only screen and (max-width: 997px)
+{
+    .right-side li,
+    .center li {
+        padding: 2px;
+    }
+}
+@media only screen and (max-width: 660px) {
+    footer {
+        position: relative; top: 10px;
+        }
+    section {
+    width: 70%;
+    height: 750px;
+}
+}
+  
+  
+  
+  
+  
+  
